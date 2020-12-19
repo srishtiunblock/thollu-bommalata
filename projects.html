@@ -1,433 +1,884 @@
 <!DOCTYPE html>
-<html><head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Thollu Bommalata</title>
-        <!-- get jQuery from the google apis -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" style=""></script>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Thollu Bommalata</title>
+		<!-- get jQuery from the google apis -->
+		<script
+			src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+			style=""
+		></script>
 
-        <!-- CSS STYLE-->
-        <link href="css/basic.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400,700|Playfair+Display:400,400i,700,900" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
-        <link href="css/lightcase.css" rel="stylesheet">
-        <link href="css/ionicons/css/ionicons.min.css" type="text/css" rel="stylesheet">
-        <link href="css/pe-icon-7-stroke/css/pe-icon-7-stroke.min.css" type="text/css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/owl.carousel.css" rel="stylesheet">
-        <link href="css/grid.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="rs-plugin/css/layers.css" media="screen"> 
-        <link rel="stylesheet" type="text/css" href="rs-plugin/css/navigation.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">        
-        <link href="css/responsive.css" type="text/css" rel="stylesheet">
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/28/19/intl/ru_ALL/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/28/19/intl/ru_ALL/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/28/19/intl/ru_ALL/stats.js"></script></head>
-    <style>
-        .header-container-lower {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-        #lightbox-header {
-            top: 70px;
-        }
-        .menu-button-open {
+		<!-- CSS STYLE-->
+		<link href="css/basic.css" rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400,700|Playfair+Display:400,400i,700,900"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="css/lightcase.css" rel="stylesheet" />
+		<link
+			href="css/ionicons/css/ionicons.min.css"
+			type="text/css"
+			rel="stylesheet"
+		/>
+		<link
+			href="css/pe-icon-7-stroke/css/pe-icon-7-stroke.min.css"
+			type="text/css"
+			rel="stylesheet"
+		/>
+		<link href="css/font-awesome.min.css" rel="stylesheet" />
+		<link href="css/owl.carousel.css" rel="stylesheet" />
+		<link href="css/grid.css" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="rs-plugin/css/layers.css"
+			media="screen"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="rs-plugin/css/navigation.css"
+			media="screen"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="rs-plugin/css/settings.css"
+			media="screen"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="css/style.css"
+			media="screen"
+		/>
+		<link href="css/responsive.css" type="text/css" rel="stylesheet" />
+		<script
+			type="text/javascript"
+			charset="UTF-8"
+			src="https://maps.googleapis.com/maps-api-v3/api/js/28/19/intl/ru_ALL/common.js"
+		></script>
+		<script
+			type="text/javascript"
+			charset="UTF-8"
+			src="https://maps.googleapis.com/maps-api-v3/api/js/28/19/intl/ru_ALL/util.js"
+		></script>
+		<script
+			type="text/javascript"
+			charset="UTF-8"
+			src="https://maps.googleapis.com/maps-api-v3/api/js/28/19/intl/ru_ALL/stats.js"
+		></script>
+	</head>
+	<style>
+		.header-container-lower {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		#lightbox-header {
+			top: 70px;
+		}
+		.menu-button-open {
 			filter: invert(1);
 		}
 		.ion-ios-arrow-left {
 			filter: invert(1);
 		}
-    </style>
-<body>
-    
-    <div id="page" class="page">
-        
-    <!-- Begin Header -->
-            <!-- end header #header -->
-            <!-- End Header -->
-            
-            <!-- Begin Menu Lightbox -->
-            
-            <!-- End Menu Lightbox -->
+	</style>
+	<body>
+		<div id="page" class="page">
+			<!-- Begin Header -->
+			<!-- end header #header -->
+			<!-- End Header -->
+
+			<!-- Begin Menu Lightbox -->
+
+			<!-- End Menu Lightbox -->
 			<!-- Start Info-block Section -->
-            
-            <!-- End Info-block Section --><!-- Start Portfolio Section -->
-            
-            <!-- End Portfolio Section --><!-- Start Services Section -->
-            
-            <!-- End services Section --><!-- Start Clients Section -->
-            
-            <!-- End Clients Section --><!-- Start Blog Section -->
-            
-            <!-- End Blog Section --><!-- Start CallToAction Section -->
-            
-            <!-- End CallToAction Section --><!-- Start Team Section -->
-			
+
+			<!-- End Info-block Section --><!-- Start Portfolio Section -->
+
+			<!-- End Portfolio Section --><!-- Start Services Section -->
+
+			<!-- End services Section --><!-- Start Clients Section -->
+
+			<!-- End Clients Section --><!-- Start Blog Section -->
+
+			<!-- End Blog Section --><!-- Start CallToAction Section -->
+
+			<!-- End CallToAction Section --><!-- Start Team Section -->
+
 			<!-- End Team Section --><!-- Start Contacts Section -->
-            
-            <!-- End Contacts Section --><!-- Start Footer -->
-            
-            <!-- End Footer --><!-- Start Portfolio Section -->
-            
-            <!-- End Portfolio Section --><!-- Begin Header -->
-            <header id="header" class="dark">
+
+			<!-- End Contacts Section --><!-- Start Footer -->
+
+			<!-- End Footer --><!-- Start Portfolio Section -->
+
+			<!-- End Portfolio Section --><!-- Begin Header -->
+			<header id="header" class="dark">
+				<div class="container">
+					<div class="span12">
+						<a href="index.html" class="menu-button-back"
+							><i class="ion-ios-arrow-left"></i
+						></a>
+						<a href="#" class="menu-button-open loaded"
+							><span class="line1"></span><span class="line2"></span
+							><span class="line3"></span
+						></a>
+					</div>
+				</div>
+			</header>
+			<!-- end header #header -->
+			<!-- Begin Menu Lightbox -->
+			<div class="menu-lightbox">
+				<header id="lightbox-header">
 					<div class="container">
 						<div class="span12">
-							<a href="index.html" class="menu-button-back"><i class="ion-ios-arrow-left"></i></a>
-							<a href="#" class="menu-button-open loaded"><span class="line1"></span><span class="line2"></span><span class="line3"></span></a>
+							<div class="logo">
+								<a href="index.html"
+									><img
+										src="images/logo.png"
+										alt="logo"
+										style="outline: none; cursor: inherit"
+									/>
+									<h1 style="outline: none; cursor: inherit">Shadang</h1></a
+								>
+							</div>
+							<a href="#" class="menu-button-close"
+								><span class="line1"></span><span class="line2"></span
+							></a>
 						</div>
 					</div>
-                </header><!-- end header #header -->
-                <!-- Begin Menu Lightbox -->
-				<div class="menu-lightbox">
-					<header id="lightbox-header">
-						<div class="container">
-							<div class="span12">
-								<div class="logo"><a href="index.html"><img src="images/logo.png" alt="logo" style="outline: none; cursor: inherit;"><h1 style="outline: none; cursor: inherit;">Shadang</h1></a></div>
-								<a href="#" class="menu-button-close"><span class="line1"></span><span class="line2"></span></a>
-							</div>
-						</div>
-					</header>
-					<div class="dtable">
-						<div class="dtcell">
-							<!-- Start Menu -->
-							<ul id="menu" class="menu">
-								<li><a href="index.html" style="outline: none; cursor: inherit;">Home</a></li>
-								<li><a href="#" style="outline: none; cursor: inherit;">Projects</a></li>
-							</ul>
-							<!-- End Menu -->
-						</div>
+				</header>
+				<div class="dtable">
+					<div class="dtcell">
+						<!-- Start Menu -->
+						<ul id="menu" class="menu">
+							<li>
+								<a href="index.html" style="outline: none; cursor: inherit"
+									>Home</a
+								>
+							</li>
+							<li>
+								<a href="#" style="outline: none; cursor: inherit">Projects</a>
+							</li>
+						</ul>
+						<!-- End Menu -->
 					</div>
 				</div>
-				<!-- End Menu Lightbox -->
-            <section id="main-image" class="section fullscreen-section-dt wythe-parallax" style="background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(images/project-details-5-bg1.jpg); background-size: cover; background-color: #fff; height: 50vh; outline: none; cursor: inherit; display: flex; align-items: center; justify-content: center;">
-			<!-- <section id="main-image" class="section fullscreen-section-dt wythe-parallax" data-background-img="images/project-details-5-bg1.jpg" style="outline: none; cursor: inherit;"> -->
+			</div>
+			<!-- End Menu Lightbox -->
+			<section
+				id="main-image"
+				class="section fullscreen-section-dt wythe-parallax"
+				style="
+					background-image: linear-gradient(
+							rgba(0, 0, 0, 0.5),
+							rgba(0, 0, 0, 0.5)
+						),
+						url(images/project-details-5-bg1.jpg);
+					background-size: cover;
+					background-color: #fff;
+					height: 50vh;
+					outline: none;
+					cursor: inherit;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				"
+			>
+				<!-- <section id="main-image" class="section fullscreen-section-dt wythe-parallax" data-background-img="images/project-details-5-bg1.jpg" style="outline: none; cursor: inherit;"> -->
 				<div class="dtcell">
-					<h2 class="" data-scrolled-into-view="true" style="outline: none; cursor: inherit; color: #fff; text-align: center; font-size: clamp(2.7rem, 6vw, 5rem); font-family: var(--font-secondary);">Projects</h2>
+					<h2
+						class=""
+						data-scrolled-into-view="true"
+						style="
+							outline: none;
+							cursor: inherit;
+							color: #fff;
+							text-align: center;
+							font-size: clamp(2.7rem, 6vw, 5rem);
+							font-family: var(--font-secondary);
+						"
+					>
+						Projects
+					</h2>
 				</div>
 			</section>
-            <!-- End Info-block Section --><!-- Start Portfolio Section -->
-            <section id="portfolio" class="section">
-                <div class="row portfolio-container five-per-row" data-scrolled-into-view="true"><!-- start portfolio container -->
-                    <div class="portfolio-item dark" style="outline: none; cursor: pointer;"><!-- start portfolio item -->
-                        <a href="project_display/Annotation_Lab/1-1.html" style="outline: none; cursor: pointer;">
-                            <div class="portfolio-meta"><!-- start portfolio meta -->
-                                <time style="outline: none; cursor: pointer;">Annotation Lab</time>
-                                <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                            </div><!-- end portfolio meta -->
-                            <header class="portfolio-header"><!-- start portfolio header -->
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none; cursor: pointer;"></div><!-- portfolio categories -->
-                                    <h3 style="outline: none; cursor: pointer;">Connect Oneself</h3> <!-- portfolio title -->
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/connecting oneself.png" alt="portfolio item 1" class="featured-image" style="outline: none; cursor: inherit;"></figure><!-- portfolio featured image -->
-                            </header><!-- end portfolio header -->
-                        </a>
-                    </div><!-- end portfolio item -->
-                    <div class="portfolio-item width-2x" style="outline: none; cursor: pointer;">
-                        <a href="project_display/Annotation_Lab/1-2.html" style="outline: none; cursor: pointer;">
-                            <div class="portfolio-meta">
-                                <time style="outline: none; cursor: pointer;">Annotation Lab</time>
-                                <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                            </div>
-                            <header class="portfolio-header">
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none; cursor: pointer;"></div>
-                                    <h3 style="outline: none; cursor: pointer;">Poralu</h3>
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/poralu.png" alt="portfolio item 2" class="featured-image" style="outline: none; cursor: inherit;"></figure>
-                            </header>
-                        </a>
-                    </div>
-                    <div class="portfolio-item dark" style="outline: none; cursor: pointer;">
-                        <a href="project_display/Annotation_Lab/1-6.html" style="outline: none; cursor: pointer;">
-                            <div class="portfolio-meta">
-                                <time style="outline: none; cursor: pointer;">Annotation Lab</time>
-                                <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                            </div>
-                            <header class="portfolio-header">
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none; cursor: pointer;"></div>
-                                    <h3 style="outline: none; cursor: pointer;">Unknown Beginings</h3>
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/unknown beginnings.png" alt="portfolio item 3" class="featured-image" style="outline: none; cursor: pointer;"></figure>
-                            </header>
-                        </a>
-                    </div>
-                    <div class="portfolio-item dark">
-                        <a href="project_display/Annotation_Lab/1-4.html">
-                            <div class="portfolio-meta">
-                                <time style="outline: none; cursor: pointer;">Annotation Lab</time>
-                                <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                            </div>
-                            <header class="portfolio-header">
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none; cursor: pointer;"></div>
-                                    <h3 style="outline: none; cursor: pointer;">Behind the curtain</h3>
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/behind the curtain.png" alt="portfolio item 4" class="featured-image"></figure>
-                            </header>
-                        </a>
-                    </div>
-                    <div class="portfolio-item" style="outline: none; cursor: pointer;">
-                        <a href="project_display/Annotation_Lab/1-3.html" style="outline: none; cursor: pointer;">
-                            <div class="portfolio-meta">
-                                <time style="outline: none; cursor: pointer;">Annotation Lab</time>
-                                <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                            </div>
-                            <header class="portfolio-header">
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none; cursor: pointer;"></div>
-                                    <h3 style="outline: none; cursor: pointer;">Sounds of Tholu Bommalata</h3>
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/sounds of tholu bomm.png" alt="portfolio item 5" class="featured-image" style="outline: none; cursor: pointer;"></figure>
-                            </header>
-                        </a>
-                    </div>
-                    <div class="portfolio-item dark">
-                        <a href="project_display/Annotation_Lab/1-7.html">
-                            <div class="portfolio-meta cursor: pointer;">
-                                    <time style="outline: none; cursor: pointer;">Annotation Lab</time>
-                                    <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                                </div>
-                            <header class="portfolio-header">
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none; cursor: pointer;"></div>
-                                    <h3 style="outline: none; cursor: pointer;">Prayanam</h3>
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/prayanam.png" alt="portfolio item 6" class="featured-image"></figure>
-                            </header>
-                        </a>
-                    </div>
-                    <div class="portfolio-item width-2x dark" style="outline: none;">
-                        <a href="project_display/Annotation_Lab/1-5.html" style="outline: none; cursor: pointer;">
-                            <div class="portfolio-meta">
-                                <time style="outline: none;">Annotation Lab</time>
-                                <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                            </div>
-                            <header class="portfolio-header">
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none; cursor: pointer;"></div>
-                                    <h3 style="outline: none; cursor: pointer;">Epics of Asia</h3>
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/epics of asia.png" alt="portfolio item 7" class="featured-image" style="outline: none; cursor: pointer;"></figure>
-                            </header>
-                        </a>
-                    </div>
-                    <div class="portfolio-item dark" style="outline: none; cursor: pointer;"><!-- start portfolio item -->
-                        <a href="project_display/Branding_Lab/2-2.html" style="outline: none; cursor: pointer;">
-                            <div class="portfolio-meta"><!-- start portfolio meta -->
-                                <time style="outline: none; cursor: pointer;">Branding Lab</time>
-                                <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                            </div><!-- end portfolio meta -->
-                            <header class="portfolio-header"><!-- start portfolio header -->
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none;"></div><!-- portfolio categories -->
-                                    <h3 style="outline: none;">Chitrakatha</h3> <!-- portfolio title -->
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/chitrakatha.png" alt="portfolio item 1" class="featured-image" style="outline: none; cursor: pointer;"></figure><!-- portfolio featured image -->
-                            </header><!-- end portfolio header -->
-                        </a>
-                    </div><!-- end portfolio item -->
-                    <div class="portfolio-item width-2x" style="outline: none;">
-                        <a href="project_display/Branding_Lab/2-1.html" style="outline: none;">
-                            <div class="portfolio-meta">
-                                <time style="outline: none;">Branding Lab</time>
-                                <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                            </div>
-                            <header class="portfolio-header">
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none;"></div>
-                                    <h3 style="outline: none;">Brand Identity</h3>
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/brand identity.png" alt="portfolio item 2" class="featured-image" style="outline: none; cursor: pointer;"></figure>
-                            </header>
-                        </a>
-                    </div>
-                    
-                    <div class="portfolio-item" style="outline: none;">
-                        <a href="project_display/Branding_Lab/2-4.html" style="outline: none;">
-                            <div class="portfolio-meta">
-                                <time style="outline: none;">Branding Lab</time>
-                                <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                            </div>
-                            <header class="portfolio-header">
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none;"></div>
-                                    <h3 style="outline: none;">Quiz</h3>
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/tholu bomm quiz.png" alt="portfolio item 5" class="featured-image" style="outline: none; cursor: pointer;"></figure>
-                            </header>
-                        </a>
-                    </div>
+			<!-- End Info-block Section --><!-- Start Portfolio Section -->
+			<section id="portfolio" class="section">
+				<div
+					class="row portfolio-container five-per-row"
+					data-scrolled-into-view="true"
+				>
+					<!-- start portfolio container -->
+					<div
+						class="portfolio-item dark"
+						style="outline: none; cursor: pointer"
+					>
+						<!-- start portfolio item -->
+						<a
+							href="project_display/Annotation_Lab/1-1.html"
+							style="outline: none; cursor: pointer"
+						>
+							<div class="portfolio-meta">
+								<!-- start portfolio meta -->
+								<time style="outline: none; cursor: pointer"
+									>Annotation Lab</time
+								>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<!-- end portfolio meta -->
+							<header class="portfolio-header">
+								<!-- start portfolio header -->
+								<div class="portfolio-item-title">
+									<div
+										class="meta-categories"
+										style="outline: none; cursor: pointer"
+									></div>
+									<!-- portfolio categories -->
+									<h3 style="outline: none; cursor: pointer">
+										Connect Oneself
+									</h3>
+									<!-- portfolio title -->
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/connecting oneself.png"
+										alt="portfolio item 1"
+										class="featured-image"
+										style="outline: none; cursor: inherit"
+									/>
+								</figure>
+								<!-- portfolio featured image -->
+							</header>
+							<!-- end portfolio header -->
+						</a>
+					</div>
+					<!-- end portfolio item -->
+					<div
+						class="portfolio-item width-2x"
+						style="outline: none; cursor: pointer"
+					>
+						<a
+							href="project_display/Annotation_Lab/1-2.html"
+							style="outline: none; cursor: pointer"
+						>
+							<div class="portfolio-meta">
+								<time style="outline: none; cursor: pointer"
+									>Annotation Lab</time
+								>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<header class="portfolio-header">
+								<div class="portfolio-item-title">
+									<div
+										class="meta-categories"
+										style="outline: none; cursor: pointer"
+									></div>
+									<h3 style="outline: none; cursor: pointer">Poralu</h3>
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/poralu.png"
+										alt="portfolio item 2"
+										class="featured-image"
+										style="outline: none; cursor: inherit"
+									/>
+								</figure>
+							</header>
+						</a>
+					</div>
+					<div
+						class="portfolio-item dark"
+						style="outline: none; cursor: pointer"
+					>
+						<a
+							href="project_display/Annotation_Lab/1-6.html"
+							style="outline: none; cursor: pointer"
+						>
+							<div class="portfolio-meta">
+								<time style="outline: none; cursor: pointer"
+									>Annotation Lab</time
+								>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<header class="portfolio-header">
+								<div class="portfolio-item-title">
+									<div
+										class="meta-categories"
+										style="outline: none; cursor: pointer"
+									></div>
+									<h3 style="outline: none; cursor: pointer">
+										Unknown Beginings
+									</h3>
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/unknown beginnings.png"
+										alt="portfolio item 3"
+										class="featured-image"
+										style="outline: none; cursor: pointer"
+									/>
+								</figure>
+							</header>
+						</a>
+					</div>
+					<div class="portfolio-item dark">
+						<a href="project_display/Annotation_Lab/1-4.html">
+							<div class="portfolio-meta">
+								<time style="outline: none; cursor: pointer"
+									>Annotation Lab</time
+								>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<header class="portfolio-header">
+								<div class="portfolio-item-title">
+									<div
+										class="meta-categories"
+										style="outline: none; cursor: pointer"
+									></div>
+									<h3 style="outline: none; cursor: pointer">
+										Behind the curtain
+									</h3>
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/behind the curtain.png"
+										alt="portfolio item 4"
+										class="featured-image"
+									/>
+								</figure>
+							</header>
+						</a>
+					</div>
+					<div class="portfolio-item" style="outline: none; cursor: pointer">
+						<a
+							href="project_display/Annotation_Lab/1-3.html"
+							style="outline: none; cursor: pointer"
+						>
+							<div class="portfolio-meta">
+								<time style="outline: none; cursor: pointer"
+									>Annotation Lab</time
+								>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<header class="portfolio-header">
+								<div class="portfolio-item-title">
+									<div
+										class="meta-categories"
+										style="outline: none; cursor: pointer"
+									></div>
+									<h3 style="outline: none; cursor: pointer">
+										Sounds of Tholu Bommalata
+									</h3>
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/sounds of tholu bomm.png"
+										alt="portfolio item 5"
+										class="featured-image"
+										style="outline: none; cursor: pointer"
+									/>
+								</figure>
+							</header>
+						</a>
+					</div>
+					<div class="portfolio-item dark">
+						<a href="project_display/Annotation_Lab/1-7.html">
+							<div class="portfolio-meta cursor: pointer;">
+								<time style="outline: none; cursor: pointer"
+									>Annotation Lab</time
+								>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<header class="portfolio-header">
+								<div class="portfolio-item-title">
+									<div
+										class="meta-categories"
+										style="outline: none; cursor: pointer"
+									></div>
+									<h3 style="outline: none; cursor: pointer">Prayanam</h3>
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/prayanam.png"
+										alt="portfolio item 6"
+										class="featured-image"
+									/>
+								</figure>
+							</header>
+						</a>
+					</div>
+					<div class="portfolio-item width-2x dark" style="outline: none">
+						<a
+							href="project_display/Annotation_Lab/1-5.html"
+							style="outline: none; cursor: pointer"
+						>
+							<div class="portfolio-meta">
+								<time style="outline: none">Annotation Lab</time>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<header class="portfolio-header">
+								<div class="portfolio-item-title">
+									<div
+										class="meta-categories"
+										style="outline: none; cursor: pointer"
+									></div>
+									<h3 style="outline: none; cursor: pointer">Epics of Asia</h3>
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/epics of asia.png"
+										alt="portfolio item 7"
+										class="featured-image"
+										style="outline: none; cursor: pointer"
+									/>
+								</figure>
+							</header>
+						</a>
+					</div>
+					<div
+						class="portfolio-item dark"
+						style="outline: none; cursor: pointer"
+					>
+						<!-- start portfolio item -->
+						<a
+							href="project_display/Branding_Lab/2-2.html"
+							style="outline: none; cursor: pointer"
+						>
+							<div class="portfolio-meta">
+								<!-- start portfolio meta -->
+								<time style="outline: none; cursor: pointer">Branding Lab</time>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<!-- end portfolio meta -->
+							<header class="portfolio-header">
+								<!-- start portfolio header -->
+								<div class="portfolio-item-title">
+									<div class="meta-categories" style="outline: none"></div>
+									<!-- portfolio categories -->
+									<h3 style="outline: none">Chitrakatha</h3>
+									<!-- portfolio title -->
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/chitrakatha.png"
+										alt="portfolio item 1"
+										class="featured-image"
+										style="outline: none; cursor: pointer"
+									/>
+								</figure>
+								<!-- portfolio featured image -->
+							</header>
+							<!-- end portfolio header -->
+						</a>
+					</div>
+					<!-- end portfolio item -->
+					<div class="portfolio-item width-2x" style="outline: none">
+						<a
+							href="project_display/Branding_Lab/2-1.html"
+							style="outline: none"
+						>
+							<div class="portfolio-meta">
+								<time style="outline: none">Branding Lab</time>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<header class="portfolio-header">
+								<div class="portfolio-item-title">
+									<div class="meta-categories" style="outline: none"></div>
+									<h3 style="outline: none">Brand Identity</h3>
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/brand identity.png"
+										alt="portfolio item 2"
+										class="featured-image"
+										style="outline: none; cursor: pointer"
+									/>
+								</figure>
+							</header>
+						</a>
+					</div>
 
-                    <div class="portfolio-item width-2x dark" style="outline: none;">
-                        <a href="project_display/Branding_Lab/2-3.html" style="outline: none;">
-                            <div class="portfolio-meta">
-                                <time style="outline: none;">Branding Lab</time>
-                                <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                            </div>
-                            <header class="portfolio-header">
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none;"></div>
-                                    <h3 style="outline: none;">Kathakalp</h3>
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/kathakalp.png" alt="portfolio item 7" class="featured-image" style="outline: none; cursor: pointer;"></figure>
-                            </header>
-                        </a>
-                    </div>
-                    <div class="portfolio-item" style="outline: none;">
-                        <a href="project_display/Branding_Lab/2-6.html" style="outline: none;">
-                            <div class="portfolio-meta">
-                                <time style="outline: none;">Branding Lab</time>
-                                <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                            </div>
-                            <header class="portfolio-header">
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none;"></div>
-                                    <h3 style="outline: none;">Social Media</h3>
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/social media.png" alt="portfolio item 5" class="featured-image" style="outline: none; cursor: pointer;"></figure>
-                            </header>
-                        </a>
-                    </div>
-                    <div class="portfolio-item width-2x dark" style="outline: none;">
-                        <a href="project_display/Branding_Lab/2-5.html" style="outline: none;">
-                            <div class="portfolio-meta">
-                                <time style="outline: none;">Branding Lab</time>
-                                <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                            </div>
-                            <header class="portfolio-header">
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none;"></div>
-                                    <h3 style="outline: none;">Enchanted Treasure Chest</h3>
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/place.png" alt="portfolio item 7" class="featured-image" style="outline: none; cursor: pointer;"></figure>
-                            </header>
-                        </a>
-                    </div>
-                    <div class="portfolio-item width-2x dark" style="outline: none;">
-                        <a href="project_display/Performance%20Lab/3-2.html" style="outline: none;">
-                            <div class="portfolio-meta">
-                                <time style="outline: none;">Performance Lab</time>
-                                <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                            </div>
-                            <header class="portfolio-header">
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none;"></div>
-                                    <h3 style="outline: none;">Production and Infrastructure</h3>
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/place.png" alt="portfolio item 7" class="featured-image" style="outline: none; cursor: pointer;"></figure>
-                            </header>
-                        </a>
-                    </div>
-                    <div class="portfolio-item" style="outline: none;">
-                        <a href="project_display/Performance%20Lab/3-1.html" style="outline: none;">
-                            <div class="portfolio-meta">
-                                <time style="outline: none;">Performance Lab</time>
-                                <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                            </div>
-                            <header class="portfolio-header">
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none;"></div>
-                                    <h3 style="outline: none;">Performance 1</h3>
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/place2.png" alt="portfolio item 5" class="featured-image" style="outline: none; cursor: pointer;"></figure>
-                            </header>
-                        </a>
-                    </div>
-                    <div class="portfolio-item" style="outline: none;">
-                        <a href="project_display/Performance%20Lab/3-3.html" style="outline: none;">
-                            <div class="portfolio-meta">
-                                <time style="outline: none;">Performance Lab</time>
-                                <span class="portfolio-item-more"><i class="ion-ios-arrow-right"></i></span>
-                            </div>
-                            <header class="portfolio-header">
-                                <div class="portfolio-item-title">
-                                    <div class="meta-categories" style="outline: none;"></div>
-                                    <h3 style="outline: none;">Performance 2</h3>
-                                </div>
-                                <figure class="portfolio-img"><img src="images/cover/place2.png" alt="portfolio item 5" class="featured-image" style="outline: none; cursor: pointer;"></figure>
-                            </header>
-                        </a>
-                    </div>
-                </div> <!-- end portfolio container -->
-            </section>
+					<div class="portfolio-item" style="outline: none">
+						<a
+							href="project_display/Branding_Lab/2-4.html"
+							style="outline: none"
+						>
+							<div class="portfolio-meta">
+								<time style="outline: none">Branding Lab</time>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<header class="portfolio-header">
+								<div class="portfolio-item-title">
+									<div class="meta-categories" style="outline: none"></div>
+									<h3 style="outline: none">Quiz</h3>
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/tholu bomm quiz.png"
+										alt="portfolio item 5"
+										class="featured-image"
+										style="outline: none; cursor: pointer"
+									/>
+								</figure>
+							</header>
+						</a>
+					</div>
 
-            <footer id="footer">
-                <div class="container">
-                    <div class="span3">
-                        <h2 class="logo-text" style="outline: none; cursor: inherit;">Thollu Bommalata</h2>
-                    </div>
-                    <div class="span3 widget" style="outline: none; cursor: inherit;">
-                        <h3 class="widget-title">GET IN TOUCH</h3>
-                        Srishti Manipal<br>432 Park Ave, New York, NY 10022, USA<br><a href="mailto:template.placeholder@example.com">template.placeholder@example.com</a><br>917.555.0110
-                    </div>
-                    <div class="span3 widget" style="outline: none; cursor: inherit;">
-                        <h3 class="widget-title">Website Design</h3>
-                       
-                        <a href="Team.html" class="hire-us"><span>Shadang</span></a>
-                    </div>
-                    <div class="span3 widget" style="outline: none; cursor: inherit;">
-                            <div class="copyright">© 2020 Srishti.</div>
-                    </div>
-                </div>
-            </footer>
-            <!-- End Footer --></div><!-- /#page -->
-	
-    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>  
-    <script src="js/lightcase.js" type="text/javascript"></script>
-    <script src="js/masonry.pkdg.min.js" type="text/javascript"></script>
-    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
-    <script src="js/functions.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        var map;
-            function initMap() {
-              var styles = [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}];
-              map = new google.maps.Map(document.getElementById('map'), {
-                center: {lat: -34.397, lng: 150.644},
-                zoom: 15,
-                navigationControl:!1,
-                mapTypeControl:!1,
-                scaleControl:!1,
-                streetViewControl:!1,
-              });
-              map.setOptions({styles: styles});
-                var address = jQuery("#map-address").text();
-                if(address === "undefined") {
-                    address = 'West Village, NY, USA';
-                }
-                var geocoder = new google.maps.Geocoder();
-                var image = 'images/map-marker.png';
-                geocoder.geocode({
-                  'address': address
-                }, 
-                function(results, status) {
-                  if(status == google.maps.GeocoderStatus.OK) {
-                     new google.maps.Marker({
-                        position: results[0].geometry.location,
-                        map: map,
-                        icon: image
-                     });
-                     map.setCenter(results[0].geometry.location);
-                  }
-                });
-                
-            }
-            const topPos = document.querySelector('#info').offsetTop;
+					<div class="portfolio-item width-2x dark" style="outline: none">
+						<a
+							href="project_display/Branding_Lab/2-3.html"
+							style="outline: none"
+						>
+							<div class="portfolio-meta">
+								<time style="outline: none">Branding Lab</time>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<header class="portfolio-header">
+								<div class="portfolio-item-title">
+									<div class="meta-categories" style="outline: none"></div>
+									<h3 style="outline: none">Kathakalp</h3>
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/kathakalp.png"
+										alt="portfolio item 7"
+										class="featured-image"
+										style="outline: none; cursor: pointer"
+									/>
+								</figure>
+							</header>
+						</a>
+					</div>
+					<div class="portfolio-item" style="outline: none">
+						<a
+							href="project_display/Branding_Lab/2-6.html"
+							style="outline: none"
+						>
+							<div class="portfolio-meta">
+								<time style="outline: none">Branding Lab</time>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<header class="portfolio-header">
+								<div class="portfolio-item-title">
+									<div class="meta-categories" style="outline: none"></div>
+									<h3 style="outline: none">Social Media</h3>
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/social media.png"
+										alt="portfolio item 5"
+										class="featured-image"
+										style="outline: none; cursor: pointer"
+									/>
+								</figure>
+							</header>
+						</a>
+					</div>
+					<div class="portfolio-item width-2x dark" style="outline: none">
+						<a
+							href="project_display/Branding_Lab/2-5.html"
+							style="outline: none"
+						>
+							<div class="portfolio-meta">
+								<time style="outline: none">Branding Lab</time>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<header class="portfolio-header">
+								<div class="portfolio-item-title">
+									<div class="meta-categories" style="outline: none"></div>
+									<h3 style="outline: none">Enchanted Treasure Chest</h3>
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/place.png"
+										alt="portfolio item 7"
+										class="featured-image"
+										style="outline: none; cursor: pointer"
+									/>
+								</figure>
+							</header>
+						</a>
+					</div>
+					<div class="portfolio-item width-2x dark" style="outline: none">
+						<a
+							href="project_display/Performance%20Lab/3-2.html"
+							style="outline: none"
+						>
+							<div class="portfolio-meta">
+								<time style="outline: none">Performance Lab</time>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<header class="portfolio-header">
+								<div class="portfolio-item-title">
+									<div class="meta-categories" style="outline: none"></div>
+									<h3 style="outline: none">Production and Infrastructure</h3>
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/place.png"
+										alt="portfolio item 7"
+										class="featured-image"
+										style="outline: none; cursor: pointer"
+									/>
+								</figure>
+							</header>
+						</a>
+					</div>
+					<div class="portfolio-item" style="outline: none">
+						<a
+							href="project_display/Performance%20Lab/3-1.html"
+							style="outline: none"
+						>
+							<div class="portfolio-meta">
+								<time style="outline: none">Performance Lab</time>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<header class="portfolio-header">
+								<div class="portfolio-item-title">
+									<div class="meta-categories" style="outline: none"></div>
+									<h3 style="outline: none">Performance 1</h3>
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/place2.png"
+										alt="portfolio item 5"
+										class="featured-image"
+										style="outline: none; cursor: pointer"
+									/>
+								</figure>
+							</header>
+						</a>
+					</div>
+					<div class="portfolio-item" style="outline: none">
+						<a
+							href="project_display/Performance%20Lab/3-3.html"
+							style="outline: none"
+						>
+							<div class="portfolio-meta">
+								<time style="outline: none">Performance Lab</time>
+								<span class="portfolio-item-more"
+									><i class="ion-ios-arrow-right"></i
+								></span>
+							</div>
+							<header class="portfolio-header">
+								<div class="portfolio-item-title">
+									<div class="meta-categories" style="outline: none"></div>
+									<h3 style="outline: none">Performance 2</h3>
+								</div>
+								<figure class="portfolio-img">
+									<img
+										src="images/cover/place2.png"
+										alt="portfolio item 5"
+										class="featured-image"
+										style="outline: none; cursor: pointer"
+									/>
+								</figure>
+							</header>
+						</a>
+					</div>
+				</div>
+				<!-- end portfolio container -->
+			</section>
+
+			<footer id="footer">
+				<div class="container">
+					<div class="span3">
+						<h2 class="logo-text" style="outline: none; cursor: inherit">
+							Thollu Bommalata
+						</h2>
+					</div>
+					<div class="span3 widget" style="outline: none; cursor: inherit">
+						<h3 class="widget-title">Website Design</h3>
+
+						<a href="Team.html" class="hire-us"><span>Shadang</span></a>
+					</div>
+					<div class="span3 widget" style="outline: none; cursor: inherit">
+						<div class="copyright">© 2020 Srishti.</div>
+					</div>
+				</div>
+			</footer>
+			<!-- End Footer -->
+		</div>
+		<!-- /#page -->
+
+		<script
+			type="text/javascript"
+			src="rs-plugin/js/jquery.themepunch.tools.min.js"
+		></script>
+		<script
+			type="text/javascript"
+			src="rs-plugin/js/jquery.themepunch.revolution.min.js"
+		></script>
+		<script src="js/lightcase.js" type="text/javascript"></script>
+		<script src="js/masonry.pkdg.min.js" type="text/javascript"></script>
+		<script src="js/owl.carousel.min.js" type="text/javascript"></script>
+		<script src="js/functions.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			var map;
+			function initMap() {
+				var styles = [
+					{
+						featureType: 'all',
+						elementType: 'labels.text.fill',
+						stylers: [
+							{ saturation: 36 },
+							{ color: '#000000' },
+							{ lightness: 40 }
+						]
+					},
+					{
+						featureType: 'all',
+						elementType: 'labels.text.stroke',
+						stylers: [
+							{ visibility: 'on' },
+							{ color: '#000000' },
+							{ lightness: 16 }
+						]
+					},
+					{
+						featureType: 'all',
+						elementType: 'labels.icon',
+						stylers: [{ visibility: 'off' }]
+					},
+					{
+						featureType: 'administrative',
+						elementType: 'geometry.fill',
+						stylers: [{ color: '#000000' }, { lightness: 20 }]
+					},
+					{
+						featureType: 'administrative',
+						elementType: 'geometry.stroke',
+						stylers: [{ color: '#000000' }, { lightness: 17 }, { weight: 1.2 }]
+					},
+					{
+						featureType: 'landscape',
+						elementType: 'geometry',
+						stylers: [{ color: '#000000' }, { lightness: 20 }]
+					},
+					{
+						featureType: 'poi',
+						elementType: 'geometry',
+						stylers: [{ color: '#000000' }, { lightness: 21 }]
+					},
+					{
+						featureType: 'road.highway',
+						elementType: 'geometry.fill',
+						stylers: [{ color: '#000000' }, { lightness: 17 }]
+					},
+					{
+						featureType: 'road.highway',
+						elementType: 'geometry.stroke',
+						stylers: [{ color: '#000000' }, { lightness: 29 }, { weight: 0.2 }]
+					},
+					{
+						featureType: 'road.arterial',
+						elementType: 'geometry',
+						stylers: [{ color: '#000000' }, { lightness: 18 }]
+					},
+					{
+						featureType: 'road.local',
+						elementType: 'geometry',
+						stylers: [{ color: '#000000' }, { lightness: 16 }]
+					},
+					{
+						featureType: 'transit',
+						elementType: 'geometry',
+						stylers: [{ color: '#000000' }, { lightness: 19 }]
+					},
+					{
+						featureType: 'water',
+						elementType: 'geometry',
+						stylers: [{ color: '#000000' }, { lightness: 17 }]
+					}
+				];
+				map = new google.maps.Map(document.getElementById('map'), {
+					center: { lat: -34.397, lng: 150.644 },
+					zoom: 15,
+					navigationControl: !1,
+					mapTypeControl: !1,
+					scaleControl: !1,
+					streetViewControl: !1
+				});
+				map.setOptions({ styles: styles });
+				var address = jQuery('#map-address').text();
+				if (address === 'undefined') {
+					address = 'West Village, NY, USA';
+				}
+				var geocoder = new google.maps.Geocoder();
+				var image = 'images/map-marker.png';
+				geocoder.geocode(
+					{
+						address: address
+					},
+					function (results, status) {
+						if (status == google.maps.GeocoderStatus.OK) {
+							new google.maps.Marker({
+								position: results[0].geometry.location,
+								map: map,
+								icon: image
+							});
+							map.setCenter(results[0].geometry.location);
+						}
+					}
+				);
+			}
+			const topPos = document.querySelector('#info').offsetTop;
 			window.addEventListener('scroll', () => {
-				console.log(topPos)
-				if(window.pageYOffset > topPos) {
-					document.querySelector('.ion-ios-arrow-left').style.filter = "invert(0)";
+				console.log(topPos);
+				if (window.pageYOffset > topPos) {
+					document.querySelector('.ion-ios-arrow-left').style.filter =
+						'invert(0)';
 				} else {
-					document.querySelector('.ion-ios-arrow-left').style.filter = "invert(1)";
+					document.querySelector('.ion-ios-arrow-left').style.filter =
+						'invert(1)';
 				}
 			});
-        </script>
-        <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfbDATAIBSQEUY0YzOEjzcB8A1W2FNKSQ&amp;libraries=places,geometry&amp;callback=initMap&amp;v=3.26"></script>
-
-
-</body></html>
+		</script>
+		<script
+			async=""
+			defer=""
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfbDATAIBSQEUY0YzOEjzcB8A1W2FNKSQ&amp;libraries=places,geometry&amp;callback=initMap&amp;v=3.26"
+		></script>
+	</body>
+</html>
